@@ -26,7 +26,7 @@ fn main() {
     let exe_path = env::current_exe().expect("Failed to get executable path");
     let exe_folder = exe_path.parent().expect("Failed to get executable folder");
 
-    let soundpack_folder = exe_folder.join("packs\\").join(soundpack_name);
+    let soundpack_folder = exe_folder.join("packs").join(soundpack_name);
 
     println!("{}", ASCII_ART);
     
