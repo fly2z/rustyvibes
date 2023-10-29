@@ -31,7 +31,7 @@ The executable will be located at target/release/rustyvibes.
 4. In the config.toml file, set the pack name and volume level:
 
 ```
-pack_name = "pack-name"
+soundpack_name = "pack-name"
 volume = 100
 ```
 
